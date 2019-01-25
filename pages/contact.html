@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+
+    
+<div class="wrapper e">
+  <span class="box h"><h2>CONTACT</h2></span>
+</div>
+<div class="wrapper e">
+  <span class="box c" id="map-box">
+    <span class="news-inside">
+      <span class="news-box">
+        <h2>York Memorial Collegiate Institute</h2>
+        <span class="date">
+          <p><b>2690 Eglinton Avenue West</b></p>
+        </span>
+        <p>(416) 394-3000</p>
+        <p>YorkMemorial@TDSB.on.ca</p>
+        <p>York, ON</p>
+        <p>M6M-1T9</p>
+      </span>
+    </span>
+  </span>
+  <span class="box c">
+    <div id="map"></div>
+  </span>
+</div>
+  <span id ="news-left" class="box n">
+    <span class="news-inside">
+      <span class="news-box">
+      </span>
+    </span>
