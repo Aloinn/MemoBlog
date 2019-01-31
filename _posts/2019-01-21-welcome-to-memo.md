@@ -3,7 +3,6 @@ layout: post
 title:  "Welcome to the York Memorial Blog!"
 date:   2019-01-21 13:49:15 -0600
 categories: jekyll update
-permalink: /welcome-to-memo
 excerpt_separator: <more>
 ---
 Yo Memo! Welcome to the newly made York

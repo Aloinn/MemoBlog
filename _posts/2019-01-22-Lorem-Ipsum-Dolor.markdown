@@ -3,7 +3,6 @@ layout: post
 title:  "Lorem Ipsum Dolor"
 date:   2019-01-21 13:49:15 -0600
 categories: jekyll update
-permalink: /Blog-post
 excerpt_separator: <more>
 ---
 Lorem ipsum dolor sit amet, consectetur
