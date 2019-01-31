@@ -1,6 +1,25 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
 ---
+<div class="wrapper e">
+  <span class="box h"><h2>NEWS</h2></span>
+</div>
+<div class="wrapper e">
+  <span class="box n">
+    <span class="news-inside">
+      {% for post in site.posts %}
+      <span class="news-box">
+        <a href="{{ post.url }}">
+          <h2>{{ post.title }}</h2>
+        </a>
+        <span class="date">
+          <p><b>{{ post.date | date_to_long_string }}</b></p>
+        </span>
+        <p>{{ post.excerpt }}</p>
+        <a class="link" href="{{ post.url }}"> <p>[Continue reading...]</p></a>
+
+      </span>
+      {% endfor %}
+    </span>
+  </span>
+</div>
